@@ -1,0 +1,74 @@
+/* ============================================================
+   Estilos propios de la tienda Impacta
+   (complementan a Bootstrap, no lo reemplazan)
+   ============================================================ */
+
+:root {
+  --impacta-azul: #0d6efd;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+/* Marca en el navbar */
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* Imágenes de producto: altura uniforme */
+.card-img-top {
+  height: 200px;
+  object-fit: contain;
+}
+
+/* Imagen mostrada cuando no se encuentra la del producto */
+.img-no-disponible {
+  opacity: 0.6;
+}
+
+/* Efecto sutil al pasar el mouse por una tarjeta */
+.card {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+/* Iconos de redes sociales en el footer */
+.redes-sociales a {
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.15);
+  transition: background-color 0.15s ease;
+}
+
+.redes-sociales a:hover {
+  background-color: var(--impacta-azul);
+}
+
+.redes-sociales svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+/* Banner de ofertas */
+.banner-ofertas {
+  background: linear-gradient(90deg, #0d6efd, #6610f2);
+  color: #fff;
+}
