@@ -1,0 +1,20 @@
+Coloca aquí las imágenes de los productos con estos nombres exactos
+(si falta alguna, la tienda mostrará automáticamente "Imagen no disponible"):
+
+laptop-i5.jpg
+laptop-gamer.jpg
+ultrabook.jpg
+note-12.jpg
+pro-5g.jpg
+lite.jpg
+rtx-4060ti.jpg
+ryzen-5600x.jpg
+ram-16gb.jpg
+teclado-mecanico.jpg
+mouse-silent.jpg
+audifonos-anc.jpg
+monitor-24.jpg
+monitor-27.jpg
+monitor-34.jpg
+
+Recomendado: imágenes cuadradas o 4:3, aprox. 600x600 px, fondo blanco.
