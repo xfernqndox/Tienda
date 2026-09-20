@@ -507,15 +507,13 @@ footer h6 {
 .footer-divider {
     border-color: rgba(23, 52, 84, 0.6);
 }
-/* ===== RESPONSIVE ===== */
-@media (max-width: 991px) {
-    .footer-grid {
-        grid-template-columns: repeat(2, 1fr);
+/* ===== RESPONSIVE FOOTER ===== */
+@media (max-width: 768px) {
+    footer .row > div {
+        text-align: center;
     }
-}
 
-@media (max-width: 576px) {
-    .footer-grid {
-        grid-template-columns: 1fr;
+    footer .footer-socials {
+        justify-content: center;
     }
 }
