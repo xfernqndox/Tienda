@@ -67,62 +67,81 @@ const PRODUCTOS = [
   // ---------------------- CELULARES ----------------------
   {
     id: 4,
-    nombre: "Celular Impacta Note 12",
+    nombre: "iPhone 14 Pro Max",
     categoria: "Celulares",
-    precio: 999.0,
-    precioOferta: 799.0,
-    imagen: "img/productos/note-12.jpg",
+    precio: 1899.0,
+    precioOferta: 1550.0,
+    imagen: "",
     descripcion:
-      "Gran pantalla AMOLED, batería de 5000 mAh y triple cámara para el día a día.",
+      "Pantalla ProMotion de 6.7 pulgadas, Dynamic Island y chip A16 Bionic",
     especificaciones: {
-      Pantalla: "6.67\" AMOLED 120 Hz",
-      Procesador: "Snapdragon 685",
-      "Memoria RAM": "8 GB",
-      Almacenamiento: "256 GB",
-      "Cámara principal": "108 MP + 8 MP + 2 MP",
-      Batería: "5000 mAh (carga 33W)",
-      "Sistema operativo": "Android 13"
+      Pantalla: "6.7\" Super Retina XDR OLED 120 Hz",
+      Procesador: "Apple A16 Bionic",
+      "Memoria RAM": "6 GB",
+      Almacenamiento: "1 TB",
+      "Cámara principal": "48 MP + 12 MP + 12 MP",
+      Batería: "4323 mAh (Lightning)",
+      "Sistema operativo": "iOS 16"
     }
   },
   {
     id: 5,
-    nombre: "Celular Impacta Pro 5G",
+    nombre: "iPhone 15 Pro Max",
     categoria: "Celulares",
     precio: 2299.0,
     precioOferta: null,
     imagen: "img/productos/pro-5g.jpg",
     descripcion:
-      "Conectividad 5G, rendimiento fluido y carga ultra rápida para usuarios exigentes.",
+      "Diseño de titanio, puerto USB-C y zoom óptico de 5x",
     especificaciones: {
-      Pantalla: "6.7\" AMOLED 144 Hz",
-      Procesador: "Snapdragon 8 Gen 2",
-      "Memoria RAM": "12 GB",
-      Almacenamiento: "512 GB",
-      "Cámara principal": "50 MP + 50 MP + 8 MP",
-      Batería: "4600 mAh (carga 120W)",
-      "Sistema operativo": "Android 14"
+      Pantalla: "6.7\" Super Retina XDR OLED 120 Hz",
+      Procesador: "Apple A17 Pro",
+      "Memoria RAM": "8 GB",
+      Almacenamiento: "1 TB",
+      "Cámara principal": "48 MP + 12 MP + 12 MP (Teleobjetivo 5x)",
+      Batería: "4422 mAh (USB-C)",
+      "Sistema operativo": "iOS 17"
     }
   },
   {
     id: 6,
-    nombre: "Celular Impacta Lite",
+    nombre: "iPhone 16 Pro Max",
     categoria: "Celulares",
-    precio: 549.0,
+    precio: 3789.99,
     precioOferta: null,
     imagen: "img/productos/lite.jpg",
     descripcion:
-      "Económico y confiable, con buena autonomía y espacio suficiente para tus aplicaciones.",
+      "Pantalla gigante de 6.9 pulgadas, Botón Control de Cámara y Apple Intelligence",
     especificaciones: {
-      Pantalla: "6.5\" IPS LCD 90 Hz",
-      Procesador: "MediaTek Helio G85",
-      "Memoria RAM": "4 GB",
-      Almacenamiento: "128 GB",
-      "Cámara principal": "50 MP + 2 MP",
-      Batería: "5000 mAh (carga 15W)",
-      "Sistema operativo": "Android 13"
+      Pantalla: "6.9\" Super Retina XDR OLED 120 Hz",
+      Procesador: "Apple A18 Pro",
+      "Memoria RAM": "8 GB",
+      Almacenamiento: "Desde 256 GB hasta 1 TB",
+      "Cámara principal": "48 MP (Fusion) + 48 MP (Ultra gran angular) + 12 MP (Teleobjetivo 5x)",
+      Batería: "4685 mAh (Carga inalámbrica MagSafe 25W)",
+      "Sistema operativo": "iOS 18"
     }
   },
 
+  {
+    id: 6,
+    nombre: "iPhone 17 Pro Max",
+    categoria: "Celulares",
+    precio: 5089.99,
+    precioOferta: null,
+    imagen: "img/productos/lite.jpg",
+    descripcion:
+      "Máxima potencia con 12 GB de RAM, conectividad avanzada y chip N1",
+    especificaciones: {
+      Pantalla: "6.9\" OLED LTPO 120 Hz (3000 nits pico)",
+      Procesador: "Apple A19 Pro",
+      "Memoria RAM": "12 GB",
+      Almacenamiento: "Desde 256 GB hasta 2 TB",
+      "Cámara principal": "Sistema Pro de 48 MP con zoom avanzado",
+      Batería: "Hasta 39 horas de reproducción de video (Carga ultrarrápida)",
+      "Sistema operativo": "iOS 19"
+    }
+  },
   // ---------------------- COMPONENTES ----------------------
   {
     id: 7,
@@ -198,8 +217,45 @@ const PRODUCTOS = [
       "Anti-ghosting": "Sí, N-Key Rollover"
     }
   },
+
   {
     id: 11,
+    nombre: "Teclado Mecánico Redragon Kumara K552 RGB",
+    categoria: "Accesorios",
+    precio: 189.0,
+    precioOferta: 149.0,
+    imagen: "img/productos/teclado-redragon-kumara.jpg",
+    descripcion: "Diseño compacto TKL sin teclado numérico, switches mecánicos y retroiluminación RGB vívida",
+    especificaciones: {
+      Tipo: "Mecánico TKL",
+      Switch: "Outemu Red / Blue",
+      Distribución: "Español",
+      Iluminación: "RGB Chroma",
+      Conexión: "Cable USB desmontable",
+      "Anti-ghosting": "Sí, 100% Anti-ghosting"
+    }
+  },
+  
+{
+    id: 12,
+    nombre: "Teclado Mecánico Logitech G PRO X RGB",
+    categoria: "Accesorios",
+    precio: 549.0,
+    precioOferta: 489.0,
+    imagen: "img/productos/teclado-logitech-gprox.jpg",
+    descripcion: "Diseñado para profesionales de esports con switches intercambiables y perfil compacto",
+    especificaciones: {
+      Tipo: "Mecánico Pro TKL",
+      Switch: "GX Blue / Brown intercambiables",
+      Distribución: "Español",
+      Iluminación: "LIGHTSYNC RGB",
+      Conexión: "Cable Micro-USB desmontable",
+      "Anti-ghosting": "Sí, N-Key Rollover"
+    }
+  },
+
+  {
+    id: 13,
     nombre: "Mouse Inalámbrico Impacta Silent",
     categoria: "Accesorios",
     precio: 89.0,
@@ -216,7 +272,7 @@ const PRODUCTOS = [
     }
   },
   {
-    id: 12,
+    id: 14,
     nombre: "Audífonos Impacta Bluetooth ANC",
     categoria: "Accesorios",
     precio: 399.0,
@@ -234,60 +290,77 @@ const PRODUCTOS = [
     }
   },
 
+  { id: 15,
+    nombre: "Mouse Inalámbrico Logitech G PRO X SUPERLIGHT 2",
+    categoria: "Accesorios",
+    precio: 629.0,
+    precioOferta: 579.0,
+    imagen: "img",
+    descripcion: "Ultraligero de rendimiento superior con tecnología inalámbrica LIGHTSPEED y sensor HERO 2",
+    especificaciones: {
+      Tipo: "Mouse inalámbrico gaming",
+      Sensor: "HERO 2 (hasta 32,000 DPI)",
+      Peso: "60 gramos",
+      Conexión: "Inalámbrico LIGHTSPEED / USB",
+      Batería: "Hasta 95 horas de duración",
+      Compatibilidad: "PC y Mac"
+    }
+  },
+
+
   // ---------------------- MONITORES ----------------------
   {
-    id: 13,
-    nombre: "Monitor Impacta 24\" Full HD 75Hz",
+    id:16,
+    nombre: "ASUS ROG Strix XG259CMS",
     categoria: "Monitores",
-    precio: 549.0,
+    precio: 1899.0,
     precioOferta: null,
     imagen: "img/productos/monitor-24.jpg",
     descripcion:
-      "Panel IPS con colores vivos y bordes delgados, perfecto para estudio y trabajo.",
+      "Pantalla rápida de 24.5 pulgadas diseñada para esports y máxima fluidez competitiva",
     especificaciones: {
-      "Tamaño": "23.8 pulgadas",
+      "Tamaño": "24.5 pulgadas",
       Resolución: "1920x1080 (Full HD)",
-      Panel: "IPS",
-      "Tasa de refresco": "75 Hz",
-      "Tiempo de respuesta": "5 ms",
-      Puertos: "1x HDMI, 1x VGA"
+      Panel: "FAST IPS",
+      "Tasa de refresco": "310 Hz",
+      "Tiempo de respuesta": "0.3 ms",
+      Puertos: "1x HDMI, 1x DisplayPort, USB-C"
     }
   },
   {
-    id: 14,
-    nombre: "Monitor Gamer Impacta 27\" QHD 165Hz",
+    id: 17,
+    nombre: "ASUS ROG Strix OLED XG27AQDMG",
     categoria: "Monitores",
-    precio: 1299.0,
+    precio: 3299.0,
     precioOferta: 1099.0,
     imagen: "img/productos/monitor-27.jpg",
     descripcion:
-      "Alta tasa de refresco y resolución QHD para una experiencia de juego fluida.",
+      "Calidad visual superior con panel OLED brillante y negros absolutos para gaming avanzado",
     especificaciones: {
       "Tamaño": "27 pulgadas",
       Resolución: "2560x1440 (QHD)",
-      Panel: "IPS",
-      "Tasa de refresco": "165 Hz",
-      "Tiempo de respuesta": "1 ms (MPRT)",
-      "Sincronización": "AMD FreeSync Premium",
-      Puertos: "2x HDMI, 1x DisplayPort"
+      Panel: "WOLED brillante",
+      "Tasa de refresco": "240 Hz",
+      "Tiempo de respuesta": "0.3 ms",
+      Puertos: "2x HDMI, 1x DisplayPort, USB Hub"
     }
   },
   {
-    id: 15,
-    nombre: "Monitor Impacta Ultrawide 34\"",
+    id: 18,
+    nombre: "ASUS ROG Swift OLED PG34WCDM",
     categoria: "Monitores",
-    precio: 2199.0,
+    precio: 6299.0,
     precioOferta: null,
-    imagen: "img/productos/monitor-34.jpg",
+    imagen: "",
     descripcion:
-      "Formato ultrapanorámico 21:9 para multitarea y productividad sin límites.",
+      "Inmersión total ultra panorámica con tecnología OLED y alta velocidad de refresco",
     especificaciones: {
       "Tamaño": "34 pulgadas",
       Resolución: "3440x1440 (UWQHD)",
-      Panel: "VA curvo 1500R",
-      "Tasa de refresco": "100 Hz",
-      "Tiempo de respuesta": "4 ms",
-      Puertos: "2x HDMI, 1x DisplayPort, USB-C"
+      Panel: "WOLED curvo 800R",
+      "Tasa de refresco": "240 Hz",
+      "Tiempo de respuesta": "0.3 ms",
+      Puertos: "2x HDMI, 1x DisplayPort, USB-C (90W)"
     }
   }
 ];
