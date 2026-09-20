@@ -307,44 +307,10 @@ const PRODUCTOS = [
     }
   },
 
-  {
-    id: 16,
-    nombre: "Audífonos Inalámbricos Apple AirPods Pro (2.ª generación)",
-    categoria: "Audio",
-    precio: 999.0,
-    precioOferta: 899.0,
-    imagen: "img/productos/apple-airpods-pro-2.jpg",
-    descripcion: "Cancelación activa de ruido avanzada, audio espacial personalizado y estuche MagSafe",
-    especificaciones: {
-      Tipo: "Inalámbricos In-Ear",
-      "Cancelación de ruido": "ANC activa y Modo Ambiente adaptable",
-      Chip: "Apple H2",
-      Conexión: "Bluetooth / Estuche USB-C",
-      Batería: "Hasta 6 horas por carga (30 horas con estuche)",
-      Resistencia: "IP54 al polvo, sudor y agua"
-    }
-  },
 
-  {
-    id: 17,
-    nombre: "Cascos Apple AirPods Max",
-    categoria: "Audio",
-    precio: 2499.0,
-    precioOferta: 2299.0,
-    imagen: "img/productos/apple-airpods-max.jpg",
-    descripcion: "Sonido de alta fidelidad circumaural con diseño acústico personalizado y cancelación de ruido",
-    especificaciones: {
-      Tipo: "Cascos inalámbricos Over-Ear",
-      "Cancelación de ruido": "ANC profesional y Modo Ambiente",
-      Chip: "Chip H1 en cada audífono",
-      Conexión: "Bluetooth / Conector Lightning o USB-C",
-      Batería: "Hasta 20 horas con ANC activada",
-      Materiales: "Malla transpirable y aluminio anodizado"
-    }
-  },
   // ---------------------- MONITORES ----------------------
   {
-    id: 18,
+    id:16,
     nombre: "ASUS ROG Strix XG259CMS",
     categoria: "Monitores",
     precio: 1899.0,
@@ -362,7 +328,7 @@ const PRODUCTOS = [
     }
   },
   {
-    id: 19,
+    id: 17,
     nombre: "ASUS ROG Strix OLED XG27AQDMG",
     categoria: "Monitores",
     precio: 3299.0,
@@ -380,7 +346,7 @@ const PRODUCTOS = [
     }
   },
   {
-    id: 20,
+    id: 18,
     nombre: "ASUS ROG Swift OLED PG34WCDM",
     categoria: "Monitores",
     precio: 6299.0,
