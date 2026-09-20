@@ -21,10 +21,12 @@ document.addEventListener("DOMContentLoaded", function () {
       return;
     }
 
-    alert(
-      "¡Compra realizada con éxito!\nTotal pagado: " +
-        formatearPrecio(totalCarrito())
-    );
+    Swal.fire({
+      title: "¡Compra realizada con éxito!",
+      text: "Total pagado: " + formatearPrecio(totalCarrito()),
+      icon: "success"
+    });
+
     vaciarCarrito();
     renderizarCarrito();
   });
