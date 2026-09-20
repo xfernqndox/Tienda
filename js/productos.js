@@ -1,5 +1,5 @@
 // ============================================================
-//  DATOS DE PRODUCTOS (en duro)
+//  DATOS DE PRODUCTOS
 //  Categorías: Laptops, Celulares, Componentes, Accesorios, Monitores
 // ============================================================
 
