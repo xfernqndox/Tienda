@@ -351,7 +351,7 @@ const PRODUCTOS = [
     categoria: "Monitores",
     precio: 6299.0,
     precioOferta: null,
-    imagen: "",
+    imagen: "img/img productos/34.pulgas.jpg",
     descripcion:
       "Inmersión total ultra panorámica con tecnología OLED y alta velocidad de refresco",
     especificaciones: {
