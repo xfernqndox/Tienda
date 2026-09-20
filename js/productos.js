@@ -8,59 +8,59 @@ const PRODUCTOS = [
   // ---------------------- LAPTOPS ----------------------
   {
     id: 1,
-    nombre: "Laptop Impacta Core i5 15.6\"",
+    nombre: "MacBook Air 13\" M1",
     categoria: "Laptops",
-    precio: 2799.0,
-    precioOferta: 2399.0,
-    imagen: "img/productos/laptop-i5.jpg",
+    precio: 4299.0,
+    precioOferta: 3899.0,
+    imagen: "img/productos/macbook-air-m1.jpg",
     descripcion:
-      "Laptop ideal para trabajo y estudios, con pantalla Full HD de 15.6 pulgadas y batería de larga duración.",
+      "Delgada, ligera y con una batería de larga duración gracias al chip M1, ideal para el día a día y estudiantes.",
     especificaciones: {
-      Procesador: "Intel Core i5-1235U",
-      "Memoria RAM": "16 GB DDR4",
-      Almacenamiento: "512 GB SSD NVMe",
-      Pantalla: "15.6\" Full HD (1920x1080)",
-      "Tarjeta gráfica": "Intel Iris Xe",
-      "Sistema operativo": "Windows 11 Home",
-      Peso: "1.7 kg"
+      Procesador: "Apple M1 (CPU de 8 núcleos y GPU de 7 núcleos)",
+      "Memoria RAM": "8 GB unificada",
+      Almacenamiento: "256 GB SSD NVMe",
+      Pantalla: "13.3\" Retina (2560x1600)",
+      "Tarjeta gráfica": "Apple GPU 7 núcleos",
+      "Sistema operativo": "macOS",
+      Peso: "1.29 kg"
     }
   },
   {
     id: 2,
-    nombre: "Laptop Gamer Impacta RTX 4060",
+    nombre: "MacBook Air 15\" M3",
     categoria: "Laptops",
-    precio: 5499.0,
-    precioOferta: null,
-    imagen: "img/productos/laptop-gamer.jpg",
+    precio: 6299.0,
+    precioOferta: 5799.0,
+    imagen: "img/productos/macbook-air-15-m3.jpg",
     descripcion:
-      "Rendimiento de alto nivel para juegos y edición de video, con refrigeración mejorada y teclado retroiluminado.",
+      "Pantalla amplia de 15 pulgadas en un diseño ultradelgado, impulsada por el potente y eficiente chip M3.",
     especificaciones: {
-      Procesador: "Intel Core i7-13700H",
-      "Memoria RAM": "16 GB DDR5",
-      Almacenamiento: "1 TB SSD NVMe",
-      Pantalla: "15.6\" 165 Hz (1920x1080)",
-      "Tarjeta gráfica": "NVIDIA GeForce RTX 4060 8 GB",
-      "Sistema operativo": "Windows 11 Home",
-      Peso: "2.3 kg"
+      Procesador: "Apple M3 (CPU de 8 núcleos y GPU de 10 núcleos)",
+      "Memoria RAM": "16 GB unificada",
+      Almacenamiento: "512 GB SSD NVMe",
+      Pantalla: "15.3\" Liquid Retina (2880x1864)",
+      "Tarjeta gráfica": "Apple GPU 10 núcleos",
+      "Sistema operativo": "macOS",
+      Peso: "1.51 kg"
     }
   },
   {
     id: 3,
-    nombre: "Laptop Impacta Ultrabook 14\"",
+    nombre: "MacBook Pro 14\" M3 Pro",
     categoria: "Laptops",
-    precio: 3899.0,
-    precioOferta: 3499.0,
-    imagen: "img/productos/ultrabook.jpg",
+    precio: 8999.0,
+    precioOferta: 8299.0,
+    imagen: "img/productos/macbook-pro-14.jpg",
     descripcion:
-      "Diseño delgado y liviano en aluminio, perfecta para llevar a todos lados sin sacrificar potencia.",
+      "Rendimiento extremo para profesionales exigentes, con pantalla Liquid Retina XDR de 120 Hz y máxima conectividad.",
     especificaciones: {
-      Procesador: "AMD Ryzen 7 7730U",
-      "Memoria RAM": "16 GB LPDDR4X",
+      Procesador: "Apple M3 Pro (CPU de 11 núcleos y GPU de 14 núcleos)",
+      "Memoria RAM": "18 GB unificada",
       Almacenamiento: "512 GB SSD NVMe",
-      Pantalla: "14\" 2.2K (2240x1400)",
-      "Tarjeta gráfica": "AMD Radeon",
-      "Sistema operativo": "Windows 11 Home",
-      Peso: "1.35 kg"
+      Pantalla: "14.2\" Liquid Retina XDR 120 Hz (3024x1964)",
+      "Tarjeta gráfica": "Apple GPU 14 núcleos",
+      "Sistema operativo": "macOS",
+      Peso: "1.61 kg"
     }
   },
 
@@ -255,22 +255,22 @@ const PRODUCTOS = [
   },
 
   {
-    id: 13,
-    nombre: "Mouse Inalámbrico Impacta Silent",
-    categoria: "Accesorios",
-    precio: 89.0,
-    precioOferta: null,
-    imagen: "img/productos/mouse-silent.jpg",
-    descripcion:
-      "Clics silenciosos, sensor preciso y batería de larga duración para oficina.",
-    especificaciones: {
-      Sensor: "Óptico 1600 DPI",
-      Conexión: "Inalámbrico 2.4 GHz",
-      Botones: "6",
-      Batería: "1x AA (hasta 12 meses)",
-      Compatibilidad: "Windows, macOS, Linux"
-    }
-  },
+     id: 13,
+     nombre: "Mouse Inalámbrico Logitech M220 Silent",
+   categoria: "Accesorios",
+   precio: 79.0,
+   precioOferta: null,
+   imagen: "img/productos/mouse-logitech-m220.jpg",
+   descripcion:
+    "Disfruta de la misma sensación de clic pero un 90% menos de ruido, diseño compacto y seguimiento óptico avanzado.",
+   especificaciones: {
+    Sensor: "Óptico de alta precisión (1000 DPI)",
+    Conexión: "Inalámbrico 2.4 GHz mediante nano receptor USB",
+    Botones: "3",
+    Batería: "1x AA (hasta 18 meses)",
+    Compatibilidad: "Windows, macOS, ChromeOS, Linux"
+    },
+    },
   {
     id: 14,
     nombre: "Audífonos Impacta Bluetooth ANC",
