@@ -1,6 +1,5 @@
 // ============================================================
 //  DATOS DE PRODUCTOS (en duro)
-//  Tienda de tecnología "Impacta"
 //  Categorías: Laptops, Celulares, Componentes, Accesorios, Monitores
 // ============================================================
 
@@ -12,7 +11,7 @@ const PRODUCTOS = [
     categoria: "Laptops",
     precio: 4299.0,
     precioOferta: 3899.0,
-    imagen: "img/productos/macbook-air-m1.jpg",
+    imagen: "img/productos/13.jpg",
     descripcion:
       "Delgada, ligera y con una batería de larga duración gracias al chip M1, ideal para el día a día y estudiantes.",
     especificaciones: {
@@ -31,7 +30,7 @@ const PRODUCTOS = [
     categoria: "Laptops",
     precio: 6299.0,
     precioOferta: 5799.0,
-    imagen: "img/productos/macbook-air-15-m3.jpg",
+    imagen: "img/productos/15.jpg",
     descripcion:
       "Pantalla amplia de 15 pulgadas en un diseño ultradelgado, impulsada por el potente y eficiente chip M3.",
     especificaciones: {
@@ -50,7 +49,7 @@ const PRODUCTOS = [
     categoria: "Laptops",
     precio: 8999.0,
     precioOferta: 8299.0,
-    imagen: "img/productos/macbook-pro-14.jpg",
+    imagen: "img/productos/14.jpg",
     descripcion:
       "Rendimiento extremo para profesionales exigentes, con pantalla Liquid Retina XDR de 120 Hz y máxima conectividad.",
     especificaciones: {
@@ -71,7 +70,7 @@ const PRODUCTOS = [
     categoria: "Celulares",
     precio: 1899.0,
     precioOferta: 1550.0,
-    imagen: "",
+    imagen: "img/productos/14pro.jpg",
     descripcion:
       "Pantalla ProMotion de 6.7 pulgadas, Dynamic Island y chip A16 Bionic",
     especificaciones: {
@@ -90,7 +89,7 @@ const PRODUCTOS = [
     categoria: "Celulares",
     precio: 2299.0,
     precioOferta: null,
-    imagen: "img/productos/pro-5g.jpg",
+    imagen: "img/productos/15pro.jpg",
     descripcion:
       "Diseño de titanio, puerto USB-C y zoom óptico de 5x",
     especificaciones: {
@@ -109,7 +108,7 @@ const PRODUCTOS = [
     categoria: "Celulares",
     precio: 3789.99,
     precioOferta: null,
-    imagen: "img/productos/lite.jpg",
+    imagen: "img/productos/16max.jpg",
     descripcion:
       "Pantalla gigante de 6.9 pulgadas, Botón Control de Cámara y Apple Intelligence",
     especificaciones: {
@@ -129,7 +128,7 @@ const PRODUCTOS = [
     categoria: "Celulares",
     precio: 5089.99,
     precioOferta: null,
-    imagen: "img/productos/lite.jpg",
+    imagen: "img/productos/17pro.jpg",
     descripcion:
       "Máxima potencia con 12 GB de RAM, conectividad avanzada y chip N1",
     especificaciones: {
@@ -149,7 +148,7 @@ const PRODUCTOS = [
     categoria: "Componentes",
     precio: 1899.0,
     precioOferta: 1699.0,
-    imagen: "img/productos/rtx-4060ti.jpg",
+    imagen: "img/productos/rtx-ti.jpg",
     descripcion:
       "Ideal para gaming en 1080p y 1440p con tecnología de generación de fotogramas.",
     especificaciones: {
@@ -167,7 +166,7 @@ const PRODUCTOS = [
     categoria: "Componentes",
     precio: 649.0,
     precioOferta: null,
-    imagen: "img/productos/ryzen-5600x.jpg",
+    imagen: "img/productos/ryzen-5.jpg",
     descripcion:
       "6 núcleos y 12 hilos para gaming y multitarea, compatible con placas AM4.",
     especificaciones: {
@@ -185,7 +184,7 @@ const PRODUCTOS = [
     categoria: "Componentes",
     precio: 189.0,
     precioOferta: 159.0,
-    imagen: "img/productos/ram-16gb.jpg",
+    imagen: "img/productos/ram.jpg",
     descripcion:
       "Kit de memoria con disipador de calor para mayor estabilidad en tareas exigentes.",
     especificaciones: {
@@ -201,11 +200,11 @@ const PRODUCTOS = [
   // ---------------------- ACCESORIOS ----------------------
   {
     id: 10,
-    nombre: "Teclado Mecánico Impacta RGB",
+    nombre: "Teclado Mecánico FiddlerZ RGB",
     categoria: "Accesorios",
     precio: 259.0,
     precioOferta: 199.0,
-    imagen: "img/productos/teclado-mecanico.jpg",
+    imagen: "img/productos/fiddler.jpg",
     descripcion:
       "Switches azules, iluminación RGB personalizable y estructura resistente.",
     especificaciones: {
@@ -224,7 +223,7 @@ const PRODUCTOS = [
     categoria: "Accesorios",
     precio: 189.0,
     precioOferta: 149.0,
-    imagen: "img/productos/teclado-redragon-kumara.jpg",
+    imagen: "img/productos/k552.jpg",
     descripcion: "Diseño compacto TKL sin teclado numérico, switches mecánicos y retroiluminación RGB vívida",
     especificaciones: {
       Tipo: "Mecánico TKL",
@@ -242,7 +241,7 @@ const PRODUCTOS = [
     categoria: "Accesorios",
     precio: 549.0,
     precioOferta: 489.0,
-    imagen: "img/productos/teclado-logitech-gprox.jpg",
+    imagen: "img/productos/6pro.jpg",
     descripcion: "Diseñado para profesionales de esports con switches intercambiables y perfil compacto",
     especificaciones: {
       Tipo: "Mecánico Pro TKL",
@@ -260,7 +259,7 @@ const PRODUCTOS = [
    categoria: "Accesorios",
    precio: 79.0,
    precioOferta: null,
-   imagen: "img/productos/mouse-logitech-m220.jpg",
+   imagen: "img/productos/mouse.jpg",
    descripcion:
     "Disfruta de la misma sensación de clic pero un 90% menos de ruido, diseño compacto y seguimiento óptico avanzado.",
    especificaciones: {
@@ -273,11 +272,11 @@ const PRODUCTOS = [
     },
   {
     id: 14,
-    nombre: "Audífonos Impacta Bluetooth ANC",
+    nombre: "Audífonos Bluetooth ANC",
     categoria: "Accesorios",
     precio: 399.0,
     precioOferta: 329.0,
-    imagen: "img/productos/audifonos-anc.jpg",
+    imagen: "img/productos/auri.jpg",
     descripcion:
       "Cancelación activa de ruido, sonido envolvente y hasta 30 horas de reproducción.",
     especificaciones: {
@@ -295,7 +294,7 @@ const PRODUCTOS = [
     categoria: "Accesorios",
     precio: 629.0,
     precioOferta: 579.0,
-    imagen: "img",
+    imagen: "img/productos/mouse-pro.jpg",
     descripcion: "Ultraligero de rendimiento superior con tecnología inalámbrica LIGHTSPEED y sensor HERO 2",
     especificaciones: {
       Tipo: "Mouse inalámbrico gaming",
@@ -315,7 +314,7 @@ const PRODUCTOS = [
     categoria: "Monitores",
     precio: 1899.0,
     precioOferta: null,
-    imagen: "img/productos/monitor-24.jpg",
+    imagen: "img/productos/pantalla245.jpg",
     descripcion:
       "Pantalla rápida de 24.5 pulgadas diseñada para esports y máxima fluidez competitiva",
     especificaciones: {
@@ -333,7 +332,7 @@ const PRODUCTOS = [
     categoria: "Monitores",
     precio: 3299.0,
     precioOferta: 1099.0,
-    imagen: "img/productos/monitor-27.jpg",
+    imagen: "img/productos/pulgas27.jpg",
     descripcion:
       "Calidad visual superior con panel OLED brillante y negros absolutos para gaming avanzado",
     especificaciones: {
@@ -351,7 +350,7 @@ const PRODUCTOS = [
     categoria: "Monitores",
     precio: 6299.0,
     precioOferta: null,
-    imagen: "img/img productos/34.pulgas.jpg",
+    imagen: "img/productos/monitorasus.jpg",
     descripcion:
       "Inmersión total ultra panorámica con tecnología OLED y alta velocidad de refresco",
     especificaciones: {
